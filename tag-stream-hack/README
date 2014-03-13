@@ -1,0 +1,16 @@
+This is the Shazam Intern Hackday project
+
+You are required to fork this project and commit your hack to that fork
+
+Endpoints:
+
+Tag Stream Endpoints
+Redis: 			colin.dev.shazamteam.net:6370
+HTTP: 			http://colin.dev.shazamteam.net:7379/subscribe/tags
+WebSockets:  	ws://colin.dev.shazamteam.net:7380
+
+CDN Endpoint
+HTTP:			http://ocdn.shazamid.com/orbit/getsmoid/en/US/Play_Web/1/-/US/Web/-/-/50/track/:trackid
+
+:trackid should be replaced by the trackid that can be retrieved from the tag stream
+
